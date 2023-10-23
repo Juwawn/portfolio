@@ -1,0 +1,48 @@
+
+
+
+:root {
+    --black: #000000;
+    --night: #0A0A0A;
+    --mustard: #FFE156;
+    --olive: #7C6A0A;
+    --font1: 'Cutive Mono', monospace;
+    --font2: 'Allerta Stencil', sans-serif;
+}
+
+* {box-sizing: border-box;}
+
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--night);
+}
+
+/* -----------------------------------Header */
+
+.heading {
+    color: var(--olive);
+    font-family: var(--font2);
+    font-size: 100px;
+}
+
+
+/* ----------------------------------Main */
+
+.quote {
+    color: var(--mustard);
+    font-size: 30px;
+    font-family: var(--font1);
+    font-weight: 500;
+}
+
+
+/* ---------------------------------Footer*/
+
+
+.colophon {
+    color: var(--olive);
+    font-size: 15px;
+}
