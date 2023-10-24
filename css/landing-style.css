@@ -23,9 +23,12 @@ body {
 /* -----------------------------------Header */
 
 .heading {
-    color: var(--olive);
     font-family: var(--font2);
     font-size: 100px;
+}
+
+.heading-link {
+    color: var(--olive);
 }
 
 

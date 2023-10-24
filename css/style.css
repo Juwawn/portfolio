@@ -1,0 +1,47 @@
+
+
+:root {
+    --black: #000000;
+    --night: #0A0A0A;
+    --mustard: #FFE156;
+    --olive: #7C6A0A;
+    --black-bean: #440D0F;
+    --font1: 'Cutive Mono', monospace;
+    --font2: 'Allerta Stencil', sans-serif;
+    --font3: 'Cousine', monospace;
+}
+
+* {box-sizing: border-box;}
+
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--black-bean);
+}
+
+/* ----------------------------------------Header */
+
+
+.top-nav {
+    color: var(--mustard);
+    font-family: var(--font2);
+    font-size: 30px;
+}
+
+/* .top-nav:hover {
+    color: var(--olive);
+} */
+
+.quote {
+    color: var(--olive);
+    font-size: 35px;
+    font-family: var(--font3);
+    font-weight: 500;
+}
+
+.king {
+    
+}
+
