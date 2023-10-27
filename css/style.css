@@ -6,6 +6,7 @@
     --mustard: #FFE156;
     --olive: #7C6A0A;
     --black-bean: #440D0F;
+    --sky-blue: #9DFFF9;
     --font1: 'Cutive Mono', monospace;
     --font2: 'Allerta Stencil', sans-serif;
     --font3: 'Cousine', monospace;
@@ -16,9 +17,9 @@
 
 
 body {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    background-color: var(--black-bean);
+    background-color: var(--black);
 }
 
 /* ----------------------------------------Header */
@@ -30,18 +31,43 @@ body {
     font-size: 30px;
 }
 
-/* .top-nav:hover {
-    color: var(--olive);
-} */
+.top-nav:hover {
+    color: var(--sky-blue);
+}
 
-.quote {
+.heading {
     color: var(--olive);
     font-size: 35px;
     font-family: var(--font3);
     font-weight: 500;
 }
 
-.king {
+/* .king {
+    background-color: var(--mustard);
+} */
+
+
+/* -------------------------------------------Main */
+
+
+.sub-heading {
+    color: var(--mustard);
+    font-family: var(--font2);
+    font-size: 30px;
+}
+
+.bio-p {
+    color: var(--olive);
+}
+
+.h-link, .m-link {
+    color: var(--sky-blue);
+}
+
+.know-list, .learn-list {
+    color: var(--olive);
     
 }
+
+
 
