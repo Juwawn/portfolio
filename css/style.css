@@ -4,7 +4,7 @@
     --black: #000000;
     --night: #0A0A0A;
     --mustard: #FFE156;
-    --olive: #7C6A0A;
+    --carol: #F78E69;
     --black-bean: #440D0F;
     --sky-blue: #9DFFF9;
     --font1: 'Cutive Mono', monospace;
@@ -22,6 +22,49 @@ body {
     background-color: var(--black);
 }
 
+/* ----------------------------------------Landing Page */
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--night);
+}
+
+/* -----------------------------------Header */
+
+.landing-heading {
+    font-family: var(--font2);
+    font-size: 100px;
+}
+
+.heading-link {
+    color: var(--carol);
+}
+
+
+/* ----------------------------------Main */
+
+.quote {
+    color: var(--mustard);
+    font-size: 30px;
+    font-family: var(--font1);
+    font-weight: 500;
+}
+
+
+/* ---------------------------------Footer*/
+
+
+.landing-colophon {
+    color: var(--carol);
+    font-size: 15px;
+}
+
+/* ----------------------------------------------------Portfolio */
+
+
 /* ----------------------------------------Header */
 
 
@@ -36,10 +79,14 @@ body {
 }
 
 .heading {
-    color: var(--olive);
+    color: var(--carol);
     font-size: 35px;
     font-family: var(--font3);
     font-weight: 500;
+}
+
+#juwawn {
+    color: var(--mustard);
 }
 
 /* .king {
@@ -57,7 +104,7 @@ body {
 }
 
 .bio-p {
-    color: var(--olive);
+    color: var(--carol);
 }
 
 .h-link, .m-link {
@@ -65,8 +112,14 @@ body {
 }
 
 .know-list, .learn-list {
-    color: var(--olive);
-    
+    color: var(--carol);
+    list-style-image: url(../images/pawn.svg);
+}
+
+/* ---------------------------------------------Footer */
+
+.contacts-section {
+    background-color: var(--mustard);
 }
 
 
