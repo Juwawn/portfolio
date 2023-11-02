@@ -116,10 +116,31 @@ body {
     list-style-image: url(../images/pawn.svg);
 }
 
+.square {
+    background-color: var(--carol);
+    width: 100px;
+    height: 100px;
+}
+
+.square2 {
+    background-color: var(--mustard);
+    width: 100px;
+    height: 100px;
+}
+
 /* ---------------------------------------------Footer */
 
 .contacts-section {
     background-color: var(--mustard);
+}
+
+.footer-icon {
+    color: var(--black-bean);
+}
+
+.email-link {
+    color: var(--black-bean);
+    font-weight: 600;
 }
 
 
