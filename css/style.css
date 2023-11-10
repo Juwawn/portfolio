@@ -19,30 +19,33 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--black);
+    background-color: var(--night);
 }
 
 /* ----------------------------------------Landing Page */
 
-
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: var(--night);
-}
 
 /* -----------------------------------Header */
 
 .landing-heading {
     font-family: var(--font2);
     font-size: 100px;
+    font-size: font-size: calc(100px + (114 - 100) * ((100vw - 300px) / (1600 - 300)));
 }
+
 
 .heading-link {
     color: var(--carol);
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .landing-heading {
+        font-size: 75px;
+
+    }
+
+}
 
 /* ----------------------------------Main */
 
@@ -53,6 +56,17 @@ body {
     font-weight: 500;
 }
 
+@media (max-width: 568px) {
+
+    .landing-heading {
+        font-size: 50px;
+    }
+
+    .quote {
+        font-size: 20px;
+    }
+
+}
 
 /* ---------------------------------Footer*/
 
@@ -80,7 +94,7 @@ body {
 
 .heading {
     color: var(--carol);
-    font-size: 35px;
+    /* font-size: 35px; */
     font-family: var(--font3);
     font-weight: 500;
     font-size: calc(20px + (34 - 20) * ((100vw - 300px) / (1600 - 300)));
@@ -93,15 +107,6 @@ body {
 #clark {
     color: var(--mustard);
 }
-
-/* @media (min-width: 768px) and (max-width:991px) {
-    
-    .king {
-        background-color: var(--mustard);
-    }
-    
-} */
-
 
 
 /* -------------------------------------------Main */
@@ -128,14 +133,20 @@ body {
 
 .square {
     background-color: var(--carol);
-    width: 400px;
-    height: 200px;
+    width: 120px;
+    height: 100px;
+    /* width: 400px;
+    height: 200px; */
+    /* If you decided to half the board */
 }
 
 .square2 {
     background-color: var(--mustard);
-    width: 400px;
-    height: 200px;
+    width: 120px;
+    height: 100px;
+    /* width: 400px;
+    height: 200px; */
+    /* If you decided to half the board */
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -154,8 +165,12 @@ body {
 }
 
 .github-icon {
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
+}
+
+.github-icon:hover {
+    color: var(--carol);
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -163,6 +178,10 @@ body {
     .github-icon {
         height: 80px;
         width: 80px;
+    }
+
+    .github-icon:hover {
+        color: var(--sky-blue);
     }
 
 }
