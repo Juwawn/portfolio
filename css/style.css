@@ -29,8 +29,8 @@ body {
 
 .landing-heading {
     font-family: var(--font2);
-    font-size: 100px;
-    font-size: font-size: calc(100px + (114 - 100) * ((100vw - 300px) / (1600 - 300)));
+    /* font-size: 100px; */
+    font-size: calc(100px + (114 - 100) * ((100vw - 300px) / (1600 - 300)));
 }
 
 
