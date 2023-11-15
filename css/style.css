@@ -280,4 +280,9 @@ body {
     font-size: calc(9px + (27 - 9) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.colophon {
+    color: var(--black-bean);
+    /* font-size: 10px; */
+    font-size: calc(10px + (15 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
 
